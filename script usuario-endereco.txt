@@ -1,0 +1,27 @@
+CREATE TABLE usuario(
+cpf integer unsigned not null,
+nomeusuario VARCHAR(60) NOT NULL, 
+email VARCHAR(60) NOT NULL,
+senha VARCHAR(12) NOT NULL,
+datadenascimento DATE NOT NULL,
+sexo CHAR(1) NOT NULL,
+tipousuario VARCHAR(10) NOT NULL,
+PRIMARY KEY(cpf)
+);
+
+CREATE TABLE endereco(
+idendereco integer unsigned not null auto_increment,
+cpf integer unsigned not null,
+logradouro VARCHAR(60) NOT NULL,
+numero VARCHAR(7) NOT NULL,
+complemento VARCHAR(60) NOT NULL,
+bairro VARCHAR(60) NOT NULL,
+cidade VARCHAR(60) NOT NULL,
+cep VARCHAR(60) NOT NULL,
+PRIMARY KEY(idendereco),
+FOREIGN KEY (cpf) REFERENCES usuario(cpf) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+<a href = "detalhar_professor.php?id_professor=<?=$linha['id_professor']?>"> Ver professor </a>
+        <a href = "deletar_professor.php?id_professor=<?=$linha['id_professor']?>"> Excluir professor </a>
+        <a href = "form_alterar_professor.php?id_professor=<?=$linha['id_professor']?>"> Alterar Dados </a>
