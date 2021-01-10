@@ -46,7 +46,7 @@ require_once "conexao.php";
                 <br>
                 <br>
                 <a id="cadastrados" href="listar_produtos.php" > <strong> Produtos já cadastrados</strong></a><br>
-                <a id="categCadastradas" href="cadastroCateg.html"><strong> Cadastrar nova categoria</strong></a>
+                <a id="categCadastradas" href="cadastroCateg.php"><strong> Cadastrar nova categoria</strong></a>
                 <br> <a href="listar_usuarios.php"><strong> Ver todos os usuários </strong></a>
         
         </div>
