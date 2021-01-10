@@ -25,7 +25,7 @@
                 <br>
 
 
-                <a id="cadastrados" href="produtosCadastrados.html" > <strong> Produtos já cadastrados</strong></a>
+                <a id="cadastrados" href="produtosCadastrados.php" > <strong> Produtos já cadastrados</strong></a>
         
         </div>
         <div id ="volt">
