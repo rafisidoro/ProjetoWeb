@@ -76,12 +76,11 @@
         </div>
         
         <div id="rodape">
-            <img id="pag" src="rodape.jpeg" alt="pagamentos">
-            <img id="redes" src="redes.jpeg" alt="redessociais">
+            <img id="pag" src="pagamento.png" alt="pagamentos">
+            <img id="redes" src="redes.png" alt="redessociais">
             <div id="linkr">
             <table>
                 <tr>
-                <li> <a href="sobrealoja.html"> Sobre nós </a></li>
                 <li> <a href="cadastroproduto2.html"> Página do administrador </a></li>
                 </tr>
             </table>
